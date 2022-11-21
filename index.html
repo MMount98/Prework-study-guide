@@ -7,33 +7,87 @@
     <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
+  
+  
   <body>
+    
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
       <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header> 
-    <main>
+    
+       <main>
       
-      <section class="card" id "html-section">
-        <h2>HTML</h2>
+         <section class="card" id "html-section">
+           <h2>HTML</h2>
         <ul>
           <li> HTML stands for Hypertext Markup Language </li>
+          <li> A markup language is a computer language that defines the structure and presentation of raw text</li>
           <li> HTML cannont be used in a CSS file </li>
           <li> A simplier language that isn't case-sensitive </li>
           <li> Carries display information for the webpage </li>
           <li> Runs from the index in the files of a repo </li>
-          <li> Useful for adding images and videos to a webpage </li>
+          <li> A !DOCTYPE is required at the top of any html code file to tell the computer what type of file it is</li>
+          <li> After the DOCTYPE it is necessarcy to add an open and close html tag and to write all the html code within this tag</li>
+          <li> The head element contains the metadata for a web page</li>
+          <li> Metadata is information about the page that isnt displayed directly on the web page</li>
+          <li> The element main is used to encapsulate the dominant content within a webpage</li>
+          <li> Section defines elements in a document, such as chapters, headings, or any other area of the document with the same theme</li>
+          <li> Aside element is used to mark additional information that can enhance another element but isnt required in order to understand the main content</li>
+          <li> figure is an element used to encapsulate media such as an image, illustration, diagram, code snippet, etc</li>
+          <li> figcaption is an element used to describe the media in the figure tag and usually placed in the figure tag itself</li>
+          <li> Ul elements should not hold raw text and wont automatically format raw text into an unordered list of items</li>
+          <li> Ol element are like unordered lists, except that each list item is numbered</li>
+          <li> The img tag is useful for adding images </li>
+          <li> The img tag has a required attribute called src</li>
+          <li> The alt arrribute is great for adding a destrciption of the img</li>
+          <li> If an image fails to load on a web page, a user can mouse over the area originally intended for the image and read a brief description of the image.</li>
+          <li> The screen reading software can read the images description out loud to the visually impaired user</li>
+          <li> Attribute also plays a role in Search Engine Optimization and creates a higher ranking</li>
+          <li> The video tag work in the same way to the img except it does need a closing tag after the > </li>
+          <li> the embed tag embeds any media content including videos, audio files, and gifs from an external source</li>
+          <li> You can add height and width to the video by sipmply typing "height = "250" and width ="300" and adding the controls tag at the end </li>
           <li> The head element contains informatio about the webpage </li>
           <li> The body element represents the visual aspect for the user </li>
+          <li> Only content inside the opening and closing body tags can be displayed to the screen </li>
+          <li> Div container that divides the page into sections</li>
+          <li> Attributes are content added to the opening tag of an element and can be used in several different ways, from providing information to changing styling</li>
+          <li> The em tag will generally render as italic emphasis </li>
+          <li> The strong will generally render as bold emphasis </li>
+          <ll> The line break element (br) is unique because it is only composed of a starting tag </ll>
+          <li> Adding two br elements will leave a blank line between the paragraphs </li>
+          <li> Div's dont inherently have a visual representation, but they are very useful when we want to apply custom styles to our HTML elements</li>
           <li> Unlike in Javascript the semicolin isn't used in HTML </li>
           <li> HTMl is used to create the framework of th website itself (Javascript and CSS allows elemnts to be used on the site) </li>
           <li> The use of the aligator brackets are necessarcy for writing in HTML </li>
+          <li> You can add links to a web page by adding an anchor element: a </li>
+          <li> An anchor element uses the href (hyperlink reference) to attach links to other pages</li>
+          <li> The target to open a link in a new window or tab the target attribute requires a value of _blank</li>
+          <li> a tags are also used to link to internal webpages of the site, they need a reltive path to work properly</li>
+          <li> HTML allows you to turn an element into a link by wrapping that element with an anchor element</li>
+          <li> Browsers don't read whitespace so use it to keep an html document clean and eaily readable</li>
+          <li> Commnet start with and open bracket followed by !-- and end with --> </li>
+          <li> A great way to display info is using a table, in html you have to build the table yourself </li>
+          <li> Rows (tr) arent sufficient to add data to a table. Each cell element must also be defined using (td) to fully make a cell </li>
+          <li> Tables will also need headings used by the tag th and scope </li>
+          <li> You can spawn multiple colums or rows using the colspan and rowspan methods</li>
+          <li> Long tables can be sectioned off using the table body element (tbody)</li>
+          <li> (thead) can be used to clearly section off the heading of a table more clearly </li>
+          <li> The form element is great for getting information but then we need to send that information somewhere else for processing</li>
+          <li> the input element requires a type value to determine what it will accept</li>
+          <li> Input element also requires a name without a name it won't send</li>
+          <li> When asking for an input of only numbver you can add an step attribute to give up and down arrows in the box</li>
+          <li> The word semantic means “relating to meaning,” so semantic elements provide information about the content between the opening and closing tags</li>
+          <li> div and span are not semantic elements since they provide no context as to what is inside of those tags</li>
         </ul>
+      
       </section>
 
       <section class="card" id "Css-section">
+        
         <h2> CSS</h2>
+       
         <ul>
           <li> Stands for Cascading Style Sheet </li>
           <li> Code worked on in files ending in .css </li>
@@ -42,16 +96,38 @@
           <li> Internal CSS is used for styling three to four emlemnts at a time, it is held in the head of the HTML </li>
           <li> External CSS is used to bring in external CSS files and held in the head of HTML </li>
           <li> Inline CSS for single line styling within any tag </li>
+          <li> Declarations are the core of CSS. They apply a style to the selected element</li>
+          <li> Selector—The beginning of the ruleset used to target the element that will be styled</li>
+          <li> Declaration Block—The code in-between (and including) the curly braces ({ }) that contains the CSS declaration</li>
+          <li> Declaration—The group name for a property and value pair that applies a style to the selected element</li>
+          <li> Property—The first part of the declaration that signifies what visual characteristic of the element is to be modified</li>
+          <li> Although CSS is a different language than HTML, its possible to write CSS code directly within HTML code using inline styles but it is not commly used</li>
+          <li> All HTML elements are boxes made up of four components: a content container, padding, border, and margin</li>
+          <li> padding: The amount of space between the content area and the border</li>
+          <li> border: The thickness and style of the border surrounding the content area and padding</li>
+          <li> margin: The amount of space between the border and the outside edge of the element</li>
           <li> CSS style files need to be connected to the index with code in the head </li>
           <li> Margin indicates how much space we want around the outside of the element</li>
           <li> Padding indicates how much room we want around the content inside the element</li>
           <li> Most css lines need to ended with a semicolin </li>
           <li> CSS is used to give orginzation and color to the website </li>
+          <li> CSS includes properties that change how a browser positions elements</li>
+          <li> We can fix an element to a specific position on the page (regardless of user scrolling) by setting its position to fixed</li>
+          <li> Foreground color is the color that an element appears in</li>
+          <li> Conversely, when a heading is styled so that its background appears yellow, the background color of the heading has been styled</li>
+          <li> The hexadecimal and rgb color system can represent many more colors than the small set of CSS named colors</li>
+          <li> There is another equally powerful system in CSS called the hue-saturation-lightness color scheme, abbreviated as HSL</li>
+          <li> To use opacity in the HSL color scheme, use hsla instead of hsl, and four values instead of three</li>
+          <li> The RGB color scheme has a similar syntax for opacity, rgba</li>
+          <li> When an elements position is set to absolute, as in the last exercise, the element will scroll with the rest of the document when a user scrolls</li>
         </ul>
+      
       </section>
 
       <section class="card" id "Git-section">
+        
         <h2>GitHub</h2>
+        
         <ul>
           <li> Github is an online site used to store and hold Repos </li>
           <li> Github allows for many coders to work and write on the same code at the same time </li>
@@ -64,12 +140,28 @@
           <li> Tracks file changes on a local system and makes it easier to track errors </li>
           <li> Has a VCS to protect all the diffent versions of the main code incase somehting breaks </li>
         </ul>
+      
       </section>
 
       <section class="card" id "Javascript-section">
+       
         <h2>Javascript</h2>
+       
         <ul>
+          <li> Javascript is an object oriented code</li>
+          <li> There are only seven fundamental data types in JavaScript: string, number, boolean, null, objects, undefined, and symbol</li>
           <li> Javascript can add interactivity to the website </li>
+          <li> JavaScript objects are containers storing related data and functionality</li>
+          <li> You use dot notation to access the properties and methods of built-in objects and data instances </li>
+          <li> use bracket notation when accessing keys that have numbers, spaces, or special characters in them</li>
+          <li> Objects are mutable</li>
+          <li> You can delete a property from an object with the delete operator </li>
+          <li> privacy in objects, we define it as the idea that only certain properties should be mutable or able to change in value</li>
+          <li> Getters are methods that get and return the internal properties of an object</li>
+          <li> A factory function is a function that returns an object and can be reused to make multiple object instances </li>
+          <li> must use bracket notation when accessing keys that have numbers, spaces, or special characters in them</li>
+          <li> A property is what an object has, while a method is what an object does</li>
+          <li> Getter and Setter Methods can share the same name</li>
           <li> Script tag is used for JS in HTML </li>
           <li> An Error code in JS will stop the whole process </li>
           <li> Applied to HTML </li>
@@ -81,14 +173,18 @@
           <li> Javascript is linked to the HTMl under footer section </li>
           <li> Javascript is used to make the website fully functional </li>
           <li> Javascript is kind of like the behind the scenes to a website </li>
-        </ul>
+       </ul>
+     
       </section>
     
     </main> 
 
     <footer>
       <p>I can code!</p>
+    
     </footer>
+    
     <script src="./assets/script.js"></script>
+ 
   </body>
 </html>
